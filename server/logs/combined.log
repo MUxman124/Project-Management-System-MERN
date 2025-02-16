@@ -1,0 +1,1386 @@
+03-Jan-2025 18:06:33:633 [info]: info
+03-Jan-2025 18:06:33:633 [info]: info
+03-Jan-2025 18:07:31:731 [info]: searchQuery: sds, role: 
+03-Jan-2025 18:07:32:732 [info]: searchQuery: sdsd, role: 
+03-Jan-2025 18:07:32:732 [info]: searchQuery: sdsdf, role: 
+03-Jan-2025 18:07:54:754 [info]: searchQuery: a, role: 
+03-Jan-2025 18:21:16:2116 [info]: [object Object]
+03-Jan-2025 18:27:16:2716 [info]: [object Object]
+03-Jan-2025 18:27:50:2750 [info]: [object Object]
+03-Jan-2025 18:29:15:2915 [info]: [object Object]
+03-Jan-2025 18:29:19:2919 [info]: [object Object]
+03-Jan-2025 18:29:29:2929 [info]: [object Object]
+03-Jan-2025 18:29:33:2933 [info]: [object Object]
+03-Jan-2025 18:29:42:2942 [info]: [object Object]
+03-Jan-2025 18:33:22:3322 [error]: unhandledRejection: Cannot do exclusion on field password in inclusion projection
+MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.onMessage (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\connection.js:202:26)
+    at MessageStream.<anonymous> (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\message_stream.js:124:16)
+    at MessageStream._write (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at TLSSocket.ondata (node:internal/streams/readable:1009:22)
+    at TLSSocket.emit (node:events:518:28)
+MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.onMessage (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\connection.js:202:26)
+    at MessageStream.<anonymous> (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\message_stream.js:124:16)
+    at MessageStream._write (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at TLSSocket.ondata (node:internal/streams/readable:1009:22)
+    at TLSSocket.emit (node:events:518:28)
+03-Jan-2025 18:39:28:3928 [info]: [object Object]
+03-Jan-2025 18:39:46:3946 [info]: [object Object]
+03-Jan-2025 18:39:46:3946 [info]: [object Object]
+03-Jan-2025 18:39:47:3947 [info]: [object Object]
+03-Jan-2025 18:39:48:3948 [info]: [object Object]
+03-Jan-2025 18:40:49:4049 [info]: [object Object]
+03-Jan-2025 18:40:55:4055 [info]: [object Object]
+03-Jan-2025 18:40:55:4055 [info]: [object Object]
+03-Jan-2025 18:40:58:4058 [info]: [object Object]
+03-Jan-2025 18:56:31:5631 [info]: [object Object]
+03-Jan-2025 18:58:35:5835 [info]: [object Object]
+03-Jan-2025 18:59:04:594 [info]: [object Object]
+03-Jan-2025 18:59:14:5914 [info]: [object Object]
+03-Jan-2025 18:59:31:5931 [info]: [object Object]
+03-Jan-2025 19:00:50:050 [info]: [object Object]
+03-Jan-2025 19:00:52:052 [info]: [object Object]
+06-Jan-2025 10:32:25:3225 [info]: [object Object]
+06-Jan-2025 11:10:41:1041 [error]: unhandledRejection: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+ValidationError: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ValidationError: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 11:18:09:189 [error]: unhandledRejection: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+ValidationError: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ValidationError: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 11:25:42:2542 [error]: Error occurred Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+ValidationError: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 11:25:42:2542 [error]: ValidationError: project_manager: A project manager is required., startDate: Start date is required.
+06-Jan-2025 12:40:44:4044 [error]: Error occurred Project validation failed: project_manager: Cast to ObjectId failed for value "john" (type string) at path "project_manager" because of "BSONError", team.0: Cast to [ObjectId] failed for value "[ 'alice' ]" (type string) at path "team.0" because of "CastError", category: `Development` is not a valid enum value for path `category`.
+ValidationError: Project validation failed: project_manager: Cast to ObjectId failed for value "john" (type string) at path "project_manager" because of "BSONError", team.0: Cast to [ObjectId] failed for value "[ 'alice' ]" (type string) at path "team.0" because of "CastError", category: `Development` is not a valid enum value for path `category`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at model.$set (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:1464:12)
+    at model.$set (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:1119:16)
+    at model.Document (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:165:12)
+    at model.Model (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:123:12)
+    at new model (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4758:15)
+    at createProject (file:///C:/laragon/www/PMS/server/controller/projectController.js:8:19)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+06-Jan-2025 12:40:45:4045 [error]: ValidationError: project_manager: Cast to ObjectId failed for value "john" (type string) at path "project_manager" because of "BSONError", team.0: Cast to [ObjectId] failed for value "[ 'alice' ]" (type string) at path "team.0" because of "CastError", category: `Development` is not a valid enum value for path `category`.
+06-Jan-2025 12:54:33:5433 [info]: [object Object]
+06-Jan-2025 12:54:48:5448 [info]: [object Object]
+06-Jan-2025 12:55:20:5520 [info]: [object Object]
+06-Jan-2025 12:55:49:5549 [info]: [object Object]
+06-Jan-2025 12:55:49:5549 [info]: [object Object]
+06-Jan-2025 12:56:00:560 [info]: [object Object]
+06-Jan-2025 12:56:01:561 [info]: [object Object]
+06-Jan-2025 12:59:11:5911 [info]: [object Object]
+06-Jan-2025 12:59:40:5940 [info]: [object Object]
+06-Jan-2025 12:59:40:5940 [info]: [object Object]
+06-Jan-2025 13:02:58:258 [info]: [object Object]
+06-Jan-2025 13:02:58:258 [info]: [object Object]
+06-Jan-2025 13:08:25:825 [error]: Error occurred Project validation failed: category: `Development` is not a valid enum value for path `category`., team.0: A project cannot have more than 50 developers.
+ValidationError: Project validation failed: category: `Development` is not a valid enum value for path `category`., team.0: A project cannot have more than 50 developers.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 13:08:25:825 [error]: ValidationError: category: `Development` is not a valid enum value for path `category`., team.0: A project cannot have more than 50 developers.
+06-Jan-2025 13:09:41:941 [error]: Error occurred category is not defined
+ReferenceError: category is not defined
+    at createProject (file:///C:/laragon/www/PMS/server/controller/projectController.js:13:5)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+06-Jan-2025 13:09:41:941 [error]: ReferenceError: category is not defined
+06-Jan-2025 13:10:57:1057 [error]: Error occurred Project validation failed: category: `mobile` is not a valid enum value for path `category`., team.0: A project cannot have more than 50 developers.
+ValidationError: Project validation failed: category: `mobile` is not a valid enum value for path `category`., team.0: A project cannot have more than 50 developers.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 13:10:57:1057 [error]: ValidationError: category: `mobile` is not a valid enum value for path `category`., team.0: A project cannot have more than 50 developers.
+06-Jan-2025 13:12:52:1252 [error]: Error occurred Project validation failed: team.0: A project cannot have more than 50 developers.
+ValidationError: Project validation failed: team.0: A project cannot have more than 50 developers.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 13:12:52:1252 [error]: ValidationError: team.0: A project cannot have more than 50 developers.
+06-Jan-2025 13:15:04:154 [error]: Error occurred Project validation failed: team.0: A project cannot have more than 50 developers.
+ValidationError: Project validation failed: team.0: A project cannot have more than 50 developers.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 13:15:04:154 [error]: ValidationError: team.0: A project cannot have more than 50 developers.
+06-Jan-2025 13:20:12:2012 [error]: Error occurred Project validation failed: team.0: A project cannot have more than 50 developers.
+ValidationError: Project validation failed: team.0: A project cannot have more than 50 developers.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 13:20:12:2012 [error]: ValidationError: team.0: A project cannot have more than 50 developers.
+06-Jan-2025 13:34:53:3453 [error]: Error occurred mongoose is not defined
+ReferenceError: mongoose is not defined
+    at file:///C:/laragon/www/PMS/server/controller/projectController.js:8:58
+    at Array.map (<anonymous>)
+    at createProject (file:///C:/laragon/www/PMS/server/controller/projectController.js:8:33)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+06-Jan-2025 13:34:53:3453 [error]: ReferenceError: mongoose is not defined
+06-Jan-2025 13:35:27:3527 [error]: Error occurred Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at file:///C:/laragon/www/PMS/server/controller/projectController.js:9:58
+    at Array.map (<anonymous>)
+    at createProject (file:///C:/laragon/www/PMS/server/controller/projectController.js:9:33)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+06-Jan-2025 13:35:27:3527 [error]: TypeError: Class constructor ObjectId cannot be invoked without 'new'
+06-Jan-2025 13:36:52:3652 [error]: Error occurred Project validation failed: team.0: A project cannot have more than 50 developers.
+ValidationError: Project validation failed: team.0: A project cannot have more than 50 developers.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 13:36:52:3652 [error]: ValidationError: team.0: A project cannot have more than 50 developers.
+06-Jan-2025 13:40:07:407 [error]: Error occurred Project validation failed: team.0: A project cannot have more than 50 developers.
+ValidationError: Project validation failed: team.0: A project cannot have more than 50 developers.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 13:40:07:407 [error]: ValidationError: team.0: A project cannot have more than 50 developers.
+06-Jan-2025 13:54:17:5417 [error]: Error occurred Cannot populate path `developers` because it is not in your schema. Set the `strictPopulate` option to false to override.
+StrictPopulateError: Cannot populate path `developers` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:50:12)
+    at populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4394:21)
+    at _populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4354:5)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4326:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4325:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2320:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:11)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:54:20)
+06-Jan-2025 13:54:17:5417 [error]: StrictPopulateError: Cannot populate path `developers` because it is not in your schema. Set the `strictPopulate` option to false to override.
+06-Jan-2025 13:57:06:576 [info]: [object Object]
+06-Jan-2025 13:58:28:5828 [info]: [object Object]
+06-Jan-2025 13:58:32:5832 [info]: [object Object]
+06-Jan-2025 13:58:46:5846 [info]: [object Object]
+06-Jan-2025 14:01:08:18 [info]: [object Object]
+06-Jan-2025 14:01:21:121 [info]: [object Object]
+06-Jan-2025 14:02:26:226 [info]: [object Object]
+06-Jan-2025 14:03:04:34 [info]: [object Object]
+06-Jan-2025 14:05:28:528 [info]: [object Object]
+06-Jan-2025 15:15:09:159 [info]: [object Object]
+06-Jan-2025 15:19:58:1958 [info]: [object Object]
+06-Jan-2025 16:57:46:5746 [info]: [object Object]
+06-Jan-2025 16:57:46:5746 [info]: [object Object]
+06-Jan-2025 17:08:18:818 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:08:18:818 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:08:33:833 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:08:33:833 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:08:34:834 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:08:34:834 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:08:37:837 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:08:37:837 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:09:11:911 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:09:11:911 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:10:00:100 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:10:00:100 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:10:25:1025 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:10:25:1025 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:10:37:1037 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:10:37:1037 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:10:51:1051 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:10:51:1051 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:10:51:1051 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:10:51:1051 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:11:43:1143 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:11:43:1143 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:11:55:1155 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:11:55:1155 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:11:55:1155 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:11:55:1155 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:13:04:134 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:13:04:134 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:13:04:134 [error]: Error occurred Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+    at SchemaDate.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\date.js:419:18)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2263:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProjects (file:///C:/laragon/www/PMS/server/controller/projectController.js:60:20)
+06-Jan-2025 17:13:04:134 [error]: CastError: Cast to date failed for value "undefined" (type string) at path "endDate" for model "Project"
+06-Jan-2025 17:28:58:2858 [info]: [object Object]
+06-Jan-2025 17:30:46:3046 [info]: [object Object]
+06-Jan-2025 17:31:20:3120 [info]: [object Object]
+06-Jan-2025 17:31:42:3142 [info]: [object Object]
+06-Jan-2025 17:32:04:324 [info]: [object Object]
+06-Jan-2025 17:34:07:347 [info]: [object Object]
+07-Jan-2025 10:37:49:3749 [info]: [object Object]
+07-Jan-2025 12:02:23:223 [error]: Error occurred Task validation failed: status: `Todo` is not a valid enum value for path `status`., startDate: Start date is required.
+ValidationError: Task validation failed: status: `Todo` is not a valid enum value for path `status`., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:02:23:223 [error]: ValidationError: status: `Todo` is not a valid enum value for path `status`., startDate: Start date is required.
+07-Jan-2025 12:11:06:116 [error]: Error occurred Task validation failed: status: `Todo` is not a valid enum value for path `status`.
+ValidationError: Task validation failed: status: `Todo` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:11:06:116 [error]: ValidationError: status: `Todo` is not a valid enum value for path `status`.
+07-Jan-2025 12:12:29:1229 [info]: [object Object]
+07-Jan-2025 12:16:37:1637 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:16:37:1637 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:20:45:2045 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:20:45:2045 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:21:17:2117 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:21:17:2117 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:22:41:2241 [error]: Error occurred Task validation failed: status: `In Progress` is not a valid enum value for path `status`.
+ValidationError: Task validation failed: status: `In Progress` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:22:41:2241 [error]: ValidationError: status: `In Progress` is not a valid enum value for path `status`.
+07-Jan-2025 12:24:43:2443 [error]: Error occurred Task validation failed: status: `not-started` is not a valid enum value for path `status`.
+ValidationError: Task validation failed: status: `not-started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:24:43:2443 [error]: ValidationError: status: `not-started` is not a valid enum value for path `status`.
+07-Jan-2025 12:25:55:2555 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:25:55:2555 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:28:47:2847 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:28:47:2847 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:29:01:291 [info]: [object Object]
+07-Jan-2025 12:29:28:2928 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:29:28:2928 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:32:10:3210 [error]: Error occurred Task validation failed: description: Description must be at least 3 characters.
+ValidationError: Task validation failed: description: Description must be at least 3 characters.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:32:10:3210 [error]: ValidationError: description: Description must be at least 3 characters.
+07-Jan-2025 12:32:51:3251 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:32:51:3251 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:35:38:3538 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:35:38:3538 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:40:55:4055 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:40:55:4055 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:42:14:4214 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:42:14:4214 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:43:14:4314 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:43:14:4314 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:44:11:4411 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:44:11:4411 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:45:33:4533 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:45:33:4533 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:49:35:4935 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:49:35:4935 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:51:47:5147 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:51:47:5147 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 12:52:57:5257 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 12:52:57:5257 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 13:03:38:338 [info]: [object Object]
+07-Jan-2025 13:04:11:411 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 13:04:11:411 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 13:13:31:1331 [info]: [object Object]
+07-Jan-2025 13:25:03:253 [error]: Error occurred Cannot populate path `developer` because it is not in your schema. Set the `strictPopulate` option to false to override.
+StrictPopulateError: Cannot populate path `developer` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:50:12)
+    at populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4394:21)
+    at _populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4354:5)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4326:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4325:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2320:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:11)
+    at async getTasks (file:///C:/laragon/www/PMS/server/controller/taskController.js:55:17)
+07-Jan-2025 13:25:03:253 [error]: StrictPopulateError: Cannot populate path `developer` because it is not in your schema. Set the `strictPopulate` option to false to override.
+07-Jan-2025 13:25:41:2541 [error]: Error occurred Cannot populate path `project_manager` because it is not in your schema. Set the `strictPopulate` option to false to override.
+StrictPopulateError: Cannot populate path `project_manager` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at getModelsMapForPopulate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:50:12)
+    at populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4394:21)
+    at _populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4354:5)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4326:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4325:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2320:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:11)
+    at async getTasks (file:///C:/laragon/www/PMS/server/controller/taskController.js:55:17)
+07-Jan-2025 13:25:41:2541 [error]: StrictPopulateError: Cannot populate path `project_manager` because it is not in your schema. Set the `strictPopulate` option to false to override.
+07-Jan-2025 13:26:26:2626 [error]: Error occurred Schema hasn't been registered for model "Comment".
+Use mongoose.model(name, schema)
+MissingSchemaError: Schema hasn't been registered for model "Comment".
+Use mongoose.model(name, schema)
+    at Connection.model (C:\laragon\www\PMS\server\node_modules\mongoose\lib\connection.js:1136:13)
+    at _getModelFromConn (C:\laragon\www\PMS\server\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:601:15)
+    at addModelNamesToMap (C:\laragon\www\PMS\server\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:528:17)
+    at getModelsMapForPopulate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:209:7)
+    at populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4394:21)
+    at _populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4354:5)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4326:5
+    at new Promise (<anonymous>)
+    at Function.populate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4325:10)
+    at model.Query._find (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2320:20)
+07-Jan-2025 13:26:26:2626 [error]: MissingSchemaError: Schema hasn't been registered for model "Comment".
+Use mongoose.model(name, schema)
+07-Jan-2025 13:46:40:4640 [error]: Error occurred Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Task"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Task"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:389:32)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._findOneAndDelete (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:3519:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async deleteTask (file:///C:/laragon/www/PMS/server/controller/taskController.js:90:3)
+07-Jan-2025 13:46:40:4640 [error]: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Task"
+07-Jan-2025 13:48:21:4821 [error]: Error occurred Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Task"
+CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Task"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:389:32)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._findOneAndDelete (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:3519:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async deleteTask (file:///C:/laragon/www/PMS/server/controller/taskController.js:90:3)
+07-Jan-2025 13:48:21:4821 [error]: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Task"
+07-Jan-2025 15:39:15:3915 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 15:39:15:3915 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 15:40:48:4048 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 15:40:48:4048 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+07-Jan-2025 16:22:35:2235 [info]: [object Object]
+07-Jan-2025 17:29:23:2923 [info]: [object Object]
+07-Jan-2025 17:35:45:3545 [info]: [object Object]
+07-Jan-2025 17:35:45:3545 [info]: [object Object]
+07-Jan-2025 17:49:26:4926 [error]: unhandledRejection: data and salt arguments required
+Error: data and salt arguments required
+    at Object.hashSync (C:\laragon\www\PMS\server\node_modules\bcrypt\bcrypt.js:91:15)
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:91:33)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+Error: data and salt arguments required
+    at Object.hashSync (C:\laragon\www\PMS\server\node_modules\bcrypt\bcrypt.js:91:15)
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:91:33)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+07-Jan-2025 18:31:34:3134 [info]: [object Object]
+07-Jan-2025 18:31:34:3134 [info]: [object Object]
+07-Jan-2025 18:33:54:3354 [info]: [object Object]
+07-Jan-2025 18:33:54:3354 [info]: [object Object]
+07-Jan-2025 18:40:55:4055 [error]: Error occurred ENOENT: no such file or directory, open 'C:\laragon\www\PMS\server\uploads\1736257255917-reuben-mansell-nwOip8AOZz0-unsplash.jpg'
+Error: ENOENT: no such file or directory, open 'C:\laragon\www\PMS\server\uploads\1736257255917-reuben-mansell-nwOip8AOZz0-unsplash.jpg'
+07-Jan-2025 18:40:55:4055 [error]: Error: ENOENT: no such file or directory, open 'C:\laragon\www\PMS\server\uploads\1736257255917-reuben-mansell-nwOip8AOZz0-unsplash.jpg'
+07-Jan-2025 18:46:45:4645 [info]: [object Object]
+07-Jan-2025 18:46:45:4645 [info]: [object Object]
+07-Jan-2025 18:46:46:4646 [info]: [object Object]
+07-Jan-2025 18:46:47:4647 [info]: [object Object]
+07-Jan-2025 18:51:01:511 [info]: [object Object]
+07-Jan-2025 18:51:01:511 [info]: [object Object]
+07-Jan-2025 18:51:06:516 [info]: [object Object]
+07-Jan-2025 18:51:07:517 [info]: [object Object]
+07-Jan-2025 18:51:18:5118 [info]: [object Object]
+07-Jan-2025 18:51:19:5119 [info]: [object Object]
+07-Jan-2025 18:52:10:5210 [error]: Error occurred Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\laragon\www\PMS\server\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (C:\laragon\www\PMS\server\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\laragon\www\PMS\server\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\laragon\www\PMS\server\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\laragon\www\PMS\server\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (C:\laragon\www\PMS\server\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\laragon\www\PMS\server\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+07-Jan-2025 18:52:10:5210 [error]: MulterError: Unexpected field
+07-Jan-2025 19:00:22:022 [info]: [object Object]
+07-Jan-2025 19:00:22:022 [info]: [object Object]
+07-Jan-2025 19:02:35:235 [error]: Error occurred Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\laragon\www\PMS\server\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:518:28)
+    at HeaderParser.cb (C:\laragon\www\PMS\server\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\laragon\www\PMS\server\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\laragon\www\PMS\server\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\laragon\www\PMS\server\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (C:\laragon\www\PMS\server\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\laragon\www\PMS\server\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+07-Jan-2025 19:02:35:235 [error]: MulterError: Unexpected field
+07-Jan-2025 19:03:54:354 [error]: unhandledRejection: E11000 duplicate key error collection: PMS.users index: email_1 dup key: { email: "amar@gmail.com" }
+MongoServerError: E11000 duplicate key error collection: PMS.users index: email_1 dup key: { email: "amar@gmail.com" }
+    at C:\laragon\www\PMS\server\node_modules\mongodb\lib\operations\insert.js:50:33
+    at C:\laragon\www\PMS\server\node_modules\mongodb\lib\operations\command.js:84:64
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+MongoServerError: E11000 duplicate key error collection: PMS.users index: email_1 dup key: { email: "amar@gmail.com" }
+    at C:\laragon\www\PMS\server\node_modules\mongodb\lib\operations\insert.js:50:33
+    at C:\laragon\www\PMS\server\node_modules\mongodb\lib\operations\command.js:84:64
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+07-Jan-2025 19:20:02:202 [info]: [object Object]
+07-Jan-2025 21:35:10:3510 [info]: [object Object]
+07-Jan-2025 21:35:10:3510 [info]: [object Object]
+07-Jan-2025 21:39:08:398 [info]: [object Object]
+07-Jan-2025 21:39:08:398 [info]: [object Object]
+07-Jan-2025 21:40:27:4027 [info]: [object Object]
+07-Jan-2025 21:40:29:4029 [info]: [object Object]
+07-Jan-2025 21:40:35:4035 [info]: [object Object]
+07-Jan-2025 21:40:35:4035 [info]: [object Object]
+07-Jan-2025 21:41:27:4127 [info]: [object Object]
+07-Jan-2025 21:41:28:4128 [info]: [object Object]
+07-Jan-2025 21:55:57:5557 [error]: unhandledRejection: Cast to ObjectId failed for value "{ id: 'undefined' }" (type Object) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "{ id: 'undefined' }" (type Object) at path "_id" for model "User"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:318:34)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._findOneAndUpdate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:3319:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateUser (file:///C:/laragon/www/PMS/server/controller/userController.js:101:18)
+CastError: Cast to ObjectId failed for value "{ id: 'undefined' }" (type Object) at path "_id" for model "User"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:318:34)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._findOneAndUpdate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:3319:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateUser (file:///C:/laragon/www/PMS/server/controller/userController.js:101:18)
+07-Jan-2025 22:01:50:150 [info]: [object Object]
+07-Jan-2025 22:01:51:151 [info]: [object Object]
+07-Jan-2025 22:02:00:20 [info]: [object Object]
+07-Jan-2025 22:02:03:23 [info]: [object Object]
+07-Jan-2025 22:10:19:1019 [info]: [object Object]
+07-Jan-2025 22:10:21:1021 [info]: [object Object]
+07-Jan-2025 22:11:51:1151 [info]: [object Object]
+07-Jan-2025 22:11:51:1151 [info]: [object Object]
+07-Jan-2025 22:14:20:1420 [info]: [object Object]
+07-Jan-2025 22:14:21:1421 [info]: [object Object]
+07-Jan-2025 22:14:25:1425 [info]: [object Object]
+07-Jan-2025 22:14:25:1425 [info]: [object Object]
+07-Jan-2025 22:14:40:1440 [info]: [object Object]
+07-Jan-2025 22:14:40:1440 [info]: [object Object]
+07-Jan-2025 22:14:45:1445 [info]: [object Object]
+07-Jan-2025 22:14:45:1445 [info]: [object Object]
+07-Jan-2025 22:15:25:1525 [info]: [object Object]
+08-Jan-2025 10:26:11:2611 [info]: [object Object]
+08-Jan-2025 10:26:12:2612 [info]: [object Object]
+08-Jan-2025 10:29:20:2920 [info]: [object Object]
+08-Jan-2025 10:29:21:2921 [info]: [object Object]
+08-Jan-2025 10:29:56:2956 [info]: [object Object]
+08-Jan-2025 10:29:56:2956 [info]: [object Object]
+08-Jan-2025 10:30:45:3045 [info]: [object Object]
+08-Jan-2025 10:30:46:3046 [info]: [object Object]
+08-Jan-2025 10:32:17:3217 [info]: [object Object]
+08-Jan-2025 10:32:17:3217 [info]: [object Object]
+08-Jan-2025 10:34:53:3453 [info]: [object Object]
+08-Jan-2025 10:34:53:3453 [info]: [object Object]
+08-Jan-2025 10:35:00:350 [info]: [object Object]
+08-Jan-2025 10:35:00:350 [info]: [object Object]
+08-Jan-2025 10:35:34:3534 [info]: [object Object]
+08-Jan-2025 10:35:34:3534 [info]: [object Object]
+08-Jan-2025 10:35:42:3542 [info]: [object Object]
+08-Jan-2025 10:35:42:3542 [info]: [object Object]
+08-Jan-2025 12:08:44:844 [info]: [object Object]
+08-Jan-2025 12:08:49:849 [info]: [object Object]
+08-Jan-2025 12:08:52:852 [info]: [object Object]
+08-Jan-2025 12:15:00:150 [error]: unhandledRejection: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+ValidationError: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ValidationError: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+08-Jan-2025 12:17:27:1727 [error]: unhandledRejection: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+ValidationError: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ValidationError: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+08-Jan-2025 12:21:35:2135 [error]: unhandledRejection: phone is not defined
+ReferenceError: phone is not defined
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:87:5)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at done (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\laragon\www\PMS\server\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+ReferenceError: phone is not defined
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:87:5)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at done (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\laragon\www\PMS\server\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+08-Jan-2025 12:22:21:2221 [info]: [object Object]
+08-Jan-2025 12:22:22:2222 [info]: [object Object]
+08-Jan-2025 12:22:39:2239 [info]: [object Object]
+08-Jan-2025 12:22:39:2239 [info]: [object Object]
+08-Jan-2025 12:23:41:2341 [error]: Error occurred phone is not defined
+ReferenceError: phone is not defined
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:87:5)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at done (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\laragon\www\PMS\server\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:955:10)
+08-Jan-2025 12:23:41:2341 [error]: ReferenceError: phone is not defined
+08-Jan-2025 12:34:45:3445 [info]: [object Object]
+08-Jan-2025 12:35:02:352 [info]: [object Object]
+08-Jan-2025 12:35:02:352 [info]: [object Object]
+08-Jan-2025 12:35:02:352 [info]: [object Object]
+08-Jan-2025 12:35:02:352 [info]: [object Object]
+08-Jan-2025 12:35:05:355 [info]: [object Object]
+08-Jan-2025 12:35:05:355 [info]: [object Object]
+08-Jan-2025 12:35:57:3557 [info]: [object Object]
+08-Jan-2025 12:35:58:3558 [info]: [object Object]
+08-Jan-2025 12:36:07:367 [info]: [object Object]
+08-Jan-2025 12:36:07:367 [info]: [object Object]
+08-Jan-2025 12:37:17:3717 [info]: [object Object]
+08-Jan-2025 12:37:18:3718 [info]: [object Object]
+08-Jan-2025 12:38:15:3815 [info]: [object Object]
+08-Jan-2025 12:38:15:3815 [info]: [object Object]
+08-Jan-2025 12:38:20:3820 [info]: [object Object]
+08-Jan-2025 12:38:21:3821 [info]: [object Object]
+08-Jan-2025 12:49:11:4911 [info]: [object Object]
+08-Jan-2025 12:49:11:4911 [info]: [object Object]
+08-Jan-2025 12:49:17:4917 [info]: [object Object]
+08-Jan-2025 12:49:17:4917 [info]: [object Object]
+08-Jan-2025 12:57:09:579 [info]: [object Object]
+08-Jan-2025 12:57:12:5712 [info]: [object Object]
+08-Jan-2025 12:57:18:5718 [info]: [object Object]
+08-Jan-2025 12:57:25:5725 [info]: [object Object]
+08-Jan-2025 13:02:11:211 [info]: [object Object]
+08-Jan-2025 13:03:16:316 [info]: [object Object]
+08-Jan-2025 13:03:18:318 [info]: [object Object]
+08-Jan-2025 13:03:19:319 [info]: [object Object]
+08-Jan-2025 13:03:22:322 [info]: [object Object]
+08-Jan-2025 13:03:22:322 [info]: [object Object]
+08-Jan-2025 13:03:23:323 [info]: [object Object]
+08-Jan-2025 13:03:56:356 [info]: [object Object]
+08-Jan-2025 13:03:59:359 [info]: [object Object]
+08-Jan-2025 13:03:59:359 [info]: [object Object]
+08-Jan-2025 13:04:27:427 [info]: [object Object]
+08-Jan-2025 13:04:28:428 [info]: [object Object]
+08-Jan-2025 13:04:29:429 [info]: [object Object]
+08-Jan-2025 13:04:30:430 [info]: [object Object]
+08-Jan-2025 13:04:30:430 [info]: [object Object]
+08-Jan-2025 13:04:31:431 [info]: [object Object]
+08-Jan-2025 13:04:31:431 [info]: [object Object]
+08-Jan-2025 13:04:32:432 [info]: [object Object]
+08-Jan-2025 13:04:32:432 [info]: [object Object]
+08-Jan-2025 13:04:32:432 [info]: [object Object]
+08-Jan-2025 13:04:33:433 [info]: [object Object]
+08-Jan-2025 13:04:35:435 [info]: [object Object]
+08-Jan-2025 13:04:35:435 [info]: [object Object]
+08-Jan-2025 13:04:43:443 [info]: [object Object]
+08-Jan-2025 13:04:43:443 [info]: [object Object]
+08-Jan-2025 17:15:37:1537 [info]: [object Object]
+08-Jan-2025 17:15:38:1538 [info]: [object Object]
+08-Jan-2025 17:41:06:416 [error]: Error occurred User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+ValidationError: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+08-Jan-2025 17:41:06:416 [error]: ValidationError: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+08-Jan-2025 18:21:13:2113 [info]: [object Object]
+08-Jan-2025 18:24:07:247 [info]: [object Object]
+08-Jan-2025 18:36:01:361 [info]: [object Object]
+08-Jan-2025 18:41:00:410 [info]: [object Object]
+08-Jan-2025 18:41:00:410 [info]: [object Object]
+08-Jan-2025 19:12:43:1243 [info]: [object Object]
+08-Jan-2025 22:48:39:4839 [info]: [object Object]
+09-Jan-2025 10:48:37:4837 [info]: [object Object]
+09-Jan-2025 10:48:37:4837 [info]: [object Object]
+09-Jan-2025 10:55:27:5527 [info]: [object Object]
+09-Jan-2025 10:59:26:5926 [error]: Error occurred Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at getTasks (file:///C:/laragon/www/PMS/server/controller/taskController.js:52:44)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:421:3)
+09-Jan-2025 10:59:26:5926 [error]: TypeError: Class constructor ObjectId cannot be invoked without 'new'
+09-Jan-2025 10:59:27:5927 [error]: Error occurred Class constructor ObjectId cannot be invoked without 'new'
+TypeError: Class constructor ObjectId cannot be invoked without 'new'
+    at getTasks (file:///C:/laragon/www/PMS/server/controller/taskController.js:52:44)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:421:3)
+09-Jan-2025 10:59:27:5927 [error]: TypeError: Class constructor ObjectId cannot be invoked without 'new'
+09-Jan-2025 11:01:47:147 [error]: Error occurred Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+ValidationError: Project validation failed: status: `Not Started` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+09-Jan-2025 11:01:47:147 [error]: ValidationError: status: `Not Started` is not a valid enum value for path `status`.
+09-Jan-2025 11:03:42:342 [info]: [object Object]
+09-Jan-2025 12:26:51:2651 [info]: [object Object]
+09-Jan-2025 12:26:52:2652 [info]: [object Object]
+09-Jan-2025 12:28:11:2811 [info]: [object Object]
+09-Jan-2025 12:28:12:2812 [info]: [object Object]
+09-Jan-2025 12:28:43:2843 [info]: [object Object]
+09-Jan-2025 12:28:43:2843 [info]: [object Object]
+09-Jan-2025 12:29:24:2924 [info]: [object Object]
+09-Jan-2025 12:30:09:309 [info]: [object Object]
+09-Jan-2025 12:30:09:309 [info]: [object Object]
+09-Jan-2025 12:31:12:3112 [info]: [object Object]
+09-Jan-2025 12:31:12:3112 [info]: [object Object]
+09-Jan-2025 12:32:12:3212 [info]: [object Object]
+09-Jan-2025 12:32:13:3213 [info]: [object Object]
+09-Jan-2025 12:51:58:5158 [info]: [object Object]
+09-Jan-2025 12:51:58:5158 [info]: [object Object]
+09-Jan-2025 13:18:19:1819 [info]: [object Object]
+09-Jan-2025 13:18:19:1819 [info]: [object Object]
+09-Jan-2025 13:21:30:2130 [info]: [object Object]
+09-Jan-2025 13:21:30:2130 [info]: [object Object]
+09-Jan-2025 13:22:48:2248 [info]: [object Object]
+09-Jan-2025 13:22:48:2248 [info]: [object Object]
+09-Jan-2025 13:23:58:2358 [info]: [object Object]
+09-Jan-2025 13:23:58:2358 [info]: [object Object]
+09-Jan-2025 13:24:47:2447 [info]: [object Object]
+09-Jan-2025 13:24:47:2447 [info]: [object Object]
+09-Jan-2025 13:26:37:2637 [info]: [object Object]
+09-Jan-2025 13:26:37:2637 [info]: [object Object]
+09-Jan-2025 13:26:41:2641 [info]: [object Object]
+09-Jan-2025 13:36:41:3641 [error]: Error occurred Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at createComment (file:///C:/laragon/www/PMS/server/controller/commentController.js:5:27)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+09-Jan-2025 13:36:41:3641 [error]: TypeError: Cannot read properties of undefined (reading '_id')
+09-Jan-2025 13:39:16:3916 [error]: Error occurred Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at createComment (file:///C:/laragon/www/PMS/server/controller/commentController.js:5:27)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+09-Jan-2025 13:39:16:3916 [error]: TypeError: Cannot read properties of undefined (reading '_id')
+09-Jan-2025 13:40:03:403 [error]: Error occurred Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at createComment (file:///C:/laragon/www/PMS/server/controller/commentController.js:5:27)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+09-Jan-2025 13:40:03:403 [error]: TypeError: Cannot read properties of undefined (reading '_id')
+09-Jan-2025 13:41:38:4138 [error]: Error occurred Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at createComment (file:///C:/laragon/www/PMS/server/controller/commentController.js:6:27)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+09-Jan-2025 13:41:38:4138 [error]: TypeError: Cannot read properties of undefined (reading '_id')
+09-Jan-2025 16:14:43:1443 [info]: [object Object]
+09-Jan-2025 16:18:15:1815 [error]: Error occurred Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at getCurrentUser (file:///C:/laragon/www/PMS/server/controller/userController.js:132:45)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+09-Jan-2025 16:18:15:1815 [error]: TypeError: Cannot read properties of undefined (reading '_id')
+09-Jan-2025 16:18:15:1815 [info]: [object Object]
+09-Jan-2025 16:19:32:1932 [error]: Error occurred Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at getCurrentUser (file:///C:/laragon/www/PMS/server/controller/userController.js:132:45)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+09-Jan-2025 16:19:32:1932 [error]: TypeError: Cannot read properties of undefined (reading '_id')
+09-Jan-2025 16:19:32:1932 [info]: [object Object]
+09-Jan-2025 16:23:26:2326 [info]: [object Object]
+09-Jan-2025 16:24:13:2413 [info]: [object Object]
+09-Jan-2025 16:50:28:5028 [error]: Error occurred Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+    at new ObjectId (C:\laragon\www\PMS\server\node_modules\bson\lib\bson.cjs:2055:23)
+    at getTasks (file:///C:/laragon/www/PMS/server/controller/taskController.js:49:29)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at auth (file:///C:/laragon/www/PMS/server/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+09-Jan-2025 16:50:28:5028 [error]: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+09-Jan-2025 16:50:28:5028 [error]: Error occurred Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+    at new ObjectId (C:\laragon\www\PMS\server\node_modules\bson\lib\bson.cjs:2055:23)
+    at getTasks (file:///C:/laragon/www/PMS/server/controller/taskController.js:49:29)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at auth (file:///C:/laragon/www/PMS/server/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+09-Jan-2025 16:50:28:5028 [error]: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+09-Jan-2025 16:50:50:5050 [error]: Error occurred Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+    at new ObjectId (C:\laragon\www\PMS\server\node_modules\bson\lib\bson.cjs:2055:23)
+    at getTasks (file:///C:/laragon/www/PMS/server/controller/taskController.js:49:29)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at auth (file:///C:/laragon/www/PMS/server/middleware/auth.js:23:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+09-Jan-2025 16:50:50:5050 [error]: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+09-Jan-2025 17:11:13:1113 [info]: [object Object]
+09-Jan-2025 17:12:57:1257 [info]: [object Object]
+09-Jan-2025 17:14:48:1448 [info]: [object Object]
+09-Jan-2025 17:15:42:1542 [info]: [object Object]
+09-Jan-2025 17:16:13:1613 [info]: [object Object]
+09-Jan-2025 17:16:13:1613 [info]: [object Object]
+09-Jan-2025 17:18:45:1845 [info]: [object Object]
+09-Jan-2025 17:20:04:204 [info]: [object Object]
+09-Jan-2025 17:20:05:205 [info]: [object Object]
+09-Jan-2025 17:23:55:2355 [info]: [object Object]
+09-Jan-2025 17:23:56:2356 [info]: [object Object]
+09-Jan-2025 17:37:37:3737 [info]: [object Object]
+09-Jan-2025 17:37:37:3737 [info]: [object Object]
+09-Jan-2025 17:40:57:4057 [info]: [object Object]
+09-Jan-2025 17:41:25:4125 [info]: [object Object]
+09-Jan-2025 17:42:45:4245 [info]: [object Object]
+09-Jan-2025 17:42:45:4245 [info]: [object Object]
+09-Jan-2025 18:04:51:451 [info]: [object Object]
+09-Jan-2025 18:04:52:452 [info]: [object Object]
+09-Jan-2025 18:05:07:57 [info]: [object Object]
+09-Jan-2025 18:05:07:57 [info]: [object Object]
+09-Jan-2025 19:08:05:85 [info]: [object Object]
+09-Jan-2025 19:08:32:832 [info]: [object Object]
+09-Jan-2025 19:08:32:832 [info]: [object Object]
+10-Jan-2025 15:56:37:5637 [info]: [object Object]
+10-Jan-2025 15:56:38:5638 [info]: [object Object]
+10-Jan-2025 16:12:40:1240 [info]: [object Object]
+10-Jan-2025 16:12:41:1241 [info]: [object Object]
+10-Jan-2025 16:12:57:1257 [info]: [object Object]
+10-Jan-2025 16:12:57:1257 [info]: [object Object]
+10-Jan-2025 16:14:06:146 [error]: Error occurred User validation failed: isActive: Cast to Boolean failed for value "undefined" (type string) at path "isActive" because of "CastError", role: `senior_developer` is not a valid enum value for path `role`.
+ValidationError: User validation failed: isActive: Cast to Boolean failed for value "undefined" (type string) at path "isActive" because of "CastError", role: `senior_developer` is not a valid enum value for path `role`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at model.$set (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:1464:12)
+    at model.$set (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:1119:16)
+    at model.Document (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:165:12)
+    at model.Model (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:123:12)
+    at new model (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4758:15)
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:80:16)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+10-Jan-2025 16:14:06:146 [error]: ValidationError: isActive: Cast to Boolean failed for value "undefined" (type string) at path "isActive" because of "CastError", role: `senior_developer` is not a valid enum value for path `role`.
+10-Jan-2025 16:14:15:1415 [info]: [object Object]
+10-Jan-2025 16:14:15:1415 [info]: [object Object]
+10-Jan-2025 16:14:34:1434 [info]: [object Object]
+10-Jan-2025 16:14:35:1435 [info]: [object Object]
+10-Jan-2025 16:14:40:1440 [info]: [object Object]
+10-Jan-2025 16:14:40:1440 [info]: [object Object]
+10-Jan-2025 16:14:43:1443 [info]: [object Object]
+10-Jan-2025 16:14:44:1444 [info]: [object Object]
+10-Jan-2025 16:15:43:1543 [error]: Error occurred User validation failed: isActive: Cast to Boolean failed for value "undefined" (type string) at path "isActive" because of "CastError", role: `senior_developer` is not a valid enum value for path `role`.
+ValidationError: User validation failed: isActive: Cast to Boolean failed for value "undefined" (type string) at path "isActive" because of "CastError", role: `senior_developer` is not a valid enum value for path `role`.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at model.$set (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:1464:12)
+    at model.$set (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:1119:16)
+    at model.Document (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:165:12)
+    at model.Model (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:123:12)
+    at new model (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:4758:15)
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:80:16)
+    at file:///C:/laragon/www/PMS/server/utils/asyncHandler.js:3:21
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+10-Jan-2025 16:15:43:1543 [error]: ValidationError: isActive: Cast to Boolean failed for value "undefined" (type string) at path "isActive" because of "CastError", role: `senior_developer` is not a valid enum value for path `role`.
+10-Jan-2025 16:17:02:172 [info]: [object Object]
+10-Jan-2025 16:17:02:172 [info]: [object Object]
+10-Jan-2025 16:17:35:1735 [info]: [object Object]
+10-Jan-2025 16:17:35:1735 [info]: [object Object]
+10-Jan-2025 16:17:39:1739 [info]: [object Object]
+10-Jan-2025 16:17:40:1740 [info]: [object Object]
+10-Jan-2025 16:26:59:2659 [info]: [object Object]
+10-Jan-2025 16:27:01:271 [info]: [object Object]
+10-Jan-2025 16:27:07:277 [info]: [object Object]
+10-Jan-2025 16:27:08:278 [info]: [object Object]
+10-Jan-2025 16:27:10:2710 [info]: [object Object]
+10-Jan-2025 16:27:12:2712 [info]: [object Object]
+10-Jan-2025 16:29:01:291 [info]: [object Object]
+10-Jan-2025 16:29:22:2922 [info]: [object Object]
+10-Jan-2025 16:31:22:3122 [info]: [object Object]
+10-Jan-2025 16:31:23:3123 [info]: [object Object]
+10-Jan-2025 16:31:29:3129 [info]: [object Object]
+10-Jan-2025 16:32:50:3250 [info]: [object Object]
+15-Jan-2025 10:19:49:1949 [info]: [object Object]
+20-Jan-2025 11:21:06:216 [info]: [object Object]
+20-Jan-2025 11:21:09:219 [info]: [object Object]
+20-Jan-2025 11:21:10:2110 [info]: [object Object]
+20-Jan-2025 11:21:39:2139 [info]: [object Object]
+20-Jan-2025 11:21:40:2140 [info]: [object Object]
+20-Jan-2025 12:15:33:1533 [info]: [object Object]
+20-Jan-2025 12:16:32:1632 [info]: [object Object]
+20-Jan-2025 12:20:17:2017 [info]: [object Object]
+20-Jan-2025 12:22:49:2249 [info]: [object Object]
+20-Jan-2025 12:24:07:247 [info]: [object Object]
+20-Jan-2025 12:24:56:2456 [info]: [object Object]
+20-Jan-2025 12:25:21:2521 [info]: [object Object]
+20-Jan-2025 12:25:22:2522 [info]: [object Object]
+20-Jan-2025 12:26:21:2621 [info]: [object Object]
+20-Jan-2025 12:27:29:2729 [info]: [object Object]
+20-Jan-2025 12:28:03:283 [info]: [object Object]
+20-Jan-2025 12:28:03:283 [info]: [object Object]
+20-Jan-2025 12:29:04:294 [info]: [object Object]
+20-Jan-2025 12:29:32:2932 [info]: [object Object]
+20-Jan-2025 12:42:50:4250 [info]: [object Object]
+20-Jan-2025 12:42:50:4250 [info]: [object Object]
+20-Jan-2025 12:42:50:4250 [error]: Error occurred User is not defined
+ReferenceError: User is not defined
+    at dashboardData (file:///C:/laragon/www/PMS/server/controller/dashboardController.js:10:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+20-Jan-2025 12:42:50:4250 [error]: ReferenceError: User is not defined
+20-Jan-2025 12:42:50:4250 [error]: Error occurred User is not defined
+ReferenceError: User is not defined
+    at dashboardData (file:///C:/laragon/www/PMS/server/controller/dashboardController.js:10:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+20-Jan-2025 12:42:50:4250 [error]: ReferenceError: User is not defined
+20-Jan-2025 12:43:12:4312 [info]: [object Object]
+20-Jan-2025 12:43:12:4312 [info]: [object Object]
+20-Jan-2025 12:43:13:4313 [error]: Error occurred User is not defined
+ReferenceError: User is not defined
+    at dashboardData (file:///C:/laragon/www/PMS/server/controller/dashboardController.js:10:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+20-Jan-2025 12:43:13:4313 [error]: ReferenceError: User is not defined
+20-Jan-2025 12:43:13:4313 [error]: Error occurred User is not defined
+ReferenceError: User is not defined
+    at dashboardData (file:///C:/laragon/www/PMS/server/controller/dashboardController.js:10:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+20-Jan-2025 12:43:13:4313 [error]: ReferenceError: User is not defined
+20-Jan-2025 12:44:32:4432 [info]: [object Object]
+20-Jan-2025 12:44:32:4432 [info]: [object Object]
+20-Jan-2025 12:48:20:4820 [info]: [object Object]
+20-Jan-2025 12:48:20:4820 [info]: [object Object]
+20-Jan-2025 12:54:06:546 [info]: [object Object]
+20-Jan-2025 12:54:07:547 [info]: [object Object]
+20-Jan-2025 12:58:31:5831 [info]: [object Object]
+20-Jan-2025 12:58:31:5831 [info]: [object Object]
+20-Jan-2025 12:59:54:5954 [info]: [object Object]
+20-Jan-2025 12:59:54:5954 [info]: [object Object]
+20-Jan-2025 13:05:40:540 [info]: [object Object]
+20-Jan-2025 13:05:40:540 [info]: [object Object]
+20-Jan-2025 17:01:44:144 [info]: [object Object]
+20-Jan-2025 17:02:54:254 [info]: [object Object]
+20-Jan-2025 17:02:57:257 [info]: [object Object]
+20-Jan-2025 17:03:23:323 [info]: [object Object]
+20-Jan-2025 17:06:04:64 [error]: Error occurred Cast to ObjectId failed for value "6781019e4e50cbbca683f973,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+CastError: Cast to ObjectId failed for value "6781019e4e50cbbca683f973,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at SchemaArray._castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:542:29)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:574:17)
+    at SchemaArray.handle$in (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1589:18)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:572:20)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+20-Jan-2025 17:06:04:64 [error]: CastError: Cast to ObjectId failed for value "6781019e4e50cbbca683f973,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+20-Jan-2025 17:06:08:68 [error]: Error occurred Cast to ObjectId failed for value "6781019e4e50cbbca683f973,677e28787d5157bbf80fbd16,677d335bf6c1e7396c55604e" (type string) at path "team" for model "Project"
+CastError: Cast to ObjectId failed for value "6781019e4e50cbbca683f973,677e28787d5157bbf80fbd16,677d335bf6c1e7396c55604e" (type string) at path "team" for model "Project"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at SchemaArray._castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:542:29)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:574:17)
+    at SchemaArray.handle$in (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1589:18)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:572:20)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+20-Jan-2025 17:06:08:68 [error]: CastError: Cast to ObjectId failed for value "6781019e4e50cbbca683f973,677e28787d5157bbf80fbd16,677d335bf6c1e7396c55604e" (type string) at path "team" for model "Project"
+20-Jan-2025 17:06:32:632 [error]: Error occurred Cast to ObjectId failed for value "6781019e4e50cbbca683f973,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+CastError: Cast to ObjectId failed for value "6781019e4e50cbbca683f973,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at SchemaArray._castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:542:29)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:574:17)
+    at SchemaArray.handle$in (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1589:18)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:572:20)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+20-Jan-2025 17:06:32:632 [error]: CastError: Cast to ObjectId failed for value "6781019e4e50cbbca683f973,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+20-Jan-2025 17:07:39:739 [error]: Error occurred Cast to ObjectId failed for value "677d34ebf51329d38d02a9e0,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+CastError: Cast to ObjectId failed for value "677d34ebf51329d38d02a9e0,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at SchemaArray._castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:542:29)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:574:17)
+    at SchemaArray.handle$in (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1589:18)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:572:20)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+20-Jan-2025 17:07:39:739 [error]: CastError: Cast to ObjectId failed for value "677d34ebf51329d38d02a9e0,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+20-Jan-2025 17:08:20:820 [error]: Error occurred Cast to ObjectId failed for value "677fcb03e7c1ec2667c6fb12,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+CastError: Cast to ObjectId failed for value "677fcb03e7c1ec2667c6fb12,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at SchemaArray._castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:542:29)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:574:17)
+    at SchemaArray.handle$in (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1589:18)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:572:20)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+20-Jan-2025 17:08:20:820 [error]: CastError: Cast to ObjectId failed for value "677fcb03e7c1ec2667c6fb12,677e28787d5157bbf80fbd16" (type string) at path "team" for model "Project"
+20-Jan-2025 17:08:40:840 [info]: [object Object]
+20-Jan-2025 17:08:53:853 [error]: Error occurred Cast to ObjectId failed for value "677e28787d5157bbf80fbd16,677fcb03e7c1ec2667c6fb12" (type string) at path "team" for model "Project"
+CastError: Cast to ObjectId failed for value "677e28787d5157bbf80fbd16,677fcb03e7c1ec2667c6fb12" (type string) at path "team" for model "Project"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at SchemaArray._castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:542:29)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:574:17)
+    at SchemaArray.handle$in (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1589:18)
+    at SchemaArray.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\array.js:572:20)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:366:39)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+20-Jan-2025 17:08:53:853 [error]: CastError: Cast to ObjectId failed for value "677e28787d5157bbf80fbd16,677fcb03e7c1ec2667c6fb12" (type string) at path "team" for model "Project"
+20-Jan-2025 17:22:21:2221 [info]: [object Object]
+20-Jan-2025 17:23:26:2326 [info]: [object Object]
+20-Jan-2025 17:25:17:2517 [info]: [object Object]
+20-Jan-2025 17:26:32:2632 [info]: [object Object]
+20-Jan-2025 17:27:49:2749 [info]: [object Object]
+20-Jan-2025 17:30:01:301 [info]: [object Object]
+20-Jan-2025 17:32:34:3234 [info]: [object Object]
+20-Jan-2025 17:34:13:3413 [info]: [object Object]
+20-Jan-2025 17:34:13:3413 [info]: [object Object]
+20-Jan-2025 17:34:17:3417 [info]: [object Object]
+20-Jan-2025 17:35:29:3529 [info]: [object Object]
+20-Jan-2025 17:36:09:369 [info]: [object Object]
+20-Jan-2025 17:42:49:4249 [info]: [object Object]
+20-Jan-2025 17:43:57:4357 [info]: [object Object]
+20-Jan-2025 18:00:46:046 [info]: [object Object]
+20-Jan-2025 18:09:16:916 [info]: [object Object]
+20-Jan-2025 18:09:17:917 [info]: [object Object]
+20-Jan-2025 18:09:22:922 [info]: [object Object]
+20-Jan-2025 18:15:17:1517 [info]: [object Object]
+20-Jan-2025 18:16:13:1613 [info]: [object Object]
+20-Jan-2025 18:17:37:1737 [info]: [object Object]
+20-Jan-2025 18:22:38:2238 [info]: [object Object]
+20-Jan-2025 18:23:36:2336 [info]: [object Object]
+20-Jan-2025 18:24:52:2452 [info]: [object Object]
+20-Jan-2025 18:26:53:2653 [info]: [object Object]
+20-Jan-2025 18:27:25:2725 [info]: [object Object]
+20-Jan-2025 18:28:38:2838 [info]: [object Object]
+20-Jan-2025 18:29:06:296 [info]: [object Object]
+20-Jan-2025 18:37:51:3751 [info]: [object Object]
+20-Jan-2025 18:47:09:479 [info]: [object Object]
+20-Jan-2025 18:58:59:5859 [info]: [object Object]
+20-Jan-2025 19:00:22:022 [info]: [object Object]
+20-Jan-2025 19:00:31:031 [info]: [object Object]
+20-Jan-2025 19:07:17:717 [info]: [object Object]
+20-Jan-2025 19:07:17:717 [info]: [object Object]
+20-Jan-2025 19:09:01:91 [info]: [object Object]
+20-Jan-2025 19:09:01:91 [info]: [object Object]
+20-Jan-2025 19:09:40:940 [info]: [object Object]
+20-Jan-2025 19:10:23:1023 [info]: [object Object]
+20-Jan-2025 19:10:40:1040 [info]: [object Object]
+20-Jan-2025 19:10:40:1040 [info]: [object Object]
+20-Jan-2025 19:11:30:1130 [info]: [object Object]

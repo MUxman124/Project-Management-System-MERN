@@ -1,0 +1,214 @@
+02-Jan-2025 22:42:36:4236 [error]: unhandledRejection: (intermediate value).findOne is not a function
+TypeError: (intermediate value).findOne is not a function
+    at login (file:///C:/laragon/www/PMS/server/controller/userController.js:23:33)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:47:12)
+TypeError: (intermediate value).findOne is not a function
+    at login (file:///C:/laragon/www/PMS/server/controller/userController.js:23:33)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:47:12)
+02-Jan-2025 22:44:43:4443 [error]: unhandledRejection: `Model.findOne()` cannot run without a model as `this`. Make sure you are not calling `new Model.findOne()`
+MongooseError: `Model.findOne()` cannot run without a model as `this`. Make sure you are not calling `new Model.findOne()`
+    at _checkContext (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:1253:11)
+    at new findOne (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:2196:3)
+    at login (file:///C:/laragon/www/PMS/server/controller/userController.js:23:22)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+MongooseError: `Model.findOne()` cannot run without a model as `this`. Make sure you are not calling `new Model.findOne()`
+    at _checkContext (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:1253:11)
+    at new findOne (C:\laragon\www\PMS\server\node_modules\mongoose\lib\model.js:2196:3)
+    at login (file:///C:/laragon/www/PMS/server/controller/userController.js:23:22)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+03-Jan-2025 18:03:58:358 [error]: unhandledRejection: logger.log is not a function
+TypeError: logger.log is not a function
+    at getUsers (file:///C:/laragon/www/PMS/server/controller/userController.js:37:10)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:47:12)
+TypeError: logger.log is not a function
+    at getUsers (file:///C:/laragon/www/PMS/server/controller/userController.js:37:10)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:47:12)
+03-Jan-2025 18:33:22:3322 [error]: unhandledRejection: Cannot do exclusion on field password in inclusion projection
+MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.onMessage (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\connection.js:202:26)
+    at MessageStream.<anonymous> (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\message_stream.js:124:16)
+    at MessageStream._write (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at TLSSocket.ondata (node:internal/streams/readable:1009:22)
+    at TLSSocket.emit (node:events:518:28)
+MongoServerError: Cannot do exclusion on field password in inclusion projection
+    at Connection.onMessage (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\connection.js:202:26)
+    at MessageStream.<anonymous> (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\message_stream.js:124:16)
+    at MessageStream._write (C:\laragon\www\PMS\server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at TLSSocket.ondata (node:internal/streams/readable:1009:22)
+    at TLSSocket.emit (node:events:518:28)
+06-Jan-2025 11:10:41:1041 [error]: unhandledRejection: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+ValidationError: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ValidationError: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+06-Jan-2025 11:18:09:189 [error]: unhandledRejection: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+ValidationError: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ValidationError: Project validation failed: project_manager: A project manager is required., startDate: Start date is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+07-Jan-2025 17:49:26:4926 [error]: unhandledRejection: data and salt arguments required
+Error: data and salt arguments required
+    at Object.hashSync (C:\laragon\www\PMS\server\node_modules\bcrypt\bcrypt.js:91:15)
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:91:33)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+Error: data and salt arguments required
+    at Object.hashSync (C:\laragon\www\PMS\server\node_modules\bcrypt\bcrypt.js:91:15)
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:91:33)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\laragon\www\PMS\server\node_modules\express\lib\router\index.js:175:3)
+07-Jan-2025 19:03:54:354 [error]: unhandledRejection: E11000 duplicate key error collection: PMS.users index: email_1 dup key: { email: "amar@gmail.com" }
+MongoServerError: E11000 duplicate key error collection: PMS.users index: email_1 dup key: { email: "amar@gmail.com" }
+    at C:\laragon\www\PMS\server\node_modules\mongodb\lib\operations\insert.js:50:33
+    at C:\laragon\www\PMS\server\node_modules\mongodb\lib\operations\command.js:84:64
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+MongoServerError: E11000 duplicate key error collection: PMS.users index: email_1 dup key: { email: "amar@gmail.com" }
+    at C:\laragon\www\PMS\server\node_modules\mongodb\lib\operations\insert.js:50:33
+    at C:\laragon\www\PMS\server\node_modules\mongodb\lib\operations\command.js:84:64
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+07-Jan-2025 21:55:57:5557 [error]: unhandledRejection: Cast to ObjectId failed for value "{ id: 'undefined' }" (type Object) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "{ id: 'undefined' }" (type Object) at path "_id" for model "User"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:318:34)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._findOneAndUpdate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:3319:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateUser (file:///C:/laragon/www/PMS/server/controller/userController.js:101:18)
+CastError: Cast to ObjectId failed for value "{ id: 'undefined' }" (type Object) at path "_id" for model "User"
+    at ObjectId.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schema\objectid.js:250:11)
+    at SchemaType.applySetters (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1219:12)
+    at SchemaType.castForQuery (C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1633:15)
+    at cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\cast.js:318:34)
+    at Query.cast (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4927:12)
+    at Query._castConditions (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:2237:10)
+    at model.Query._findOneAndUpdate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:3319:8)
+    at model.Query.exec (C:\laragon\www\PMS\server\node_modules\mongoose\lib\query.js:4447:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateUser (file:///C:/laragon/www/PMS/server/controller/userController.js:101:18)
+08-Jan-2025 12:15:00:150 [error]: unhandledRejection: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+ValidationError: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ValidationError: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+08-Jan-2025 12:17:27:1727 [error]: unhandledRejection: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+ValidationError: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ValidationError: User validation failed: address: Address is required., phone: Phone number is required., jobTitle: Job title is required.
+    at Document.invalidate (C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3219:32)
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\document.js:3012:17
+    at C:\laragon\www\PMS\server\node_modules\mongoose\lib\schematype.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+08-Jan-2025 12:21:35:2135 [error]: unhandledRejection: phone is not defined
+ReferenceError: phone is not defined
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:87:5)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at done (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\laragon\www\PMS\server\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+ReferenceError: phone is not defined
+    at addUser (file:///C:/laragon/www/PMS/server/controller/userController.js:87:5)
+    at Layer.handle [as handle_request] (C:\laragon\www\PMS\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\laragon\www\PMS\server\node_modules\express\lib\router\route.js:149:13)
+    at done (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\laragon\www\PMS\server\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\laragon\www\PMS\server\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
